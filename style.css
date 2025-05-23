@@ -131,3 +131,65 @@ bottom: 400px;
 .loderImage{
     height:100px
 }
+@media (max-width: 768px) {
+    .maessageContainer {
+        width: 90%;
+        height: 450px;
+    }
+
+    .searchContainer {
+        width: 90%;
+        height: 80px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .searchContainer input {
+        font-size: 16px;
+        height: 80px;
+        margin-left: 15px;
+    }
+
+    .logoSearch i {
+        font-size: 18px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .aiMessage p,
+    .userMessage p {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .userMessage {
+        margin-left: 30%;
+    }
+
+    #heading {
+        font-size: 20px;
+        bottom: 300px;
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .userMessage {
+        margin-left: 10%;
+    }
+
+    .aiMessage p,
+    .userMessage p {
+        font-size: 14px;
+    }
+
+    .searchContainer input {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    #heading {
+        font-size: 18px;
+    }
+}
+
+
