@@ -194,11 +194,8 @@ bottom: 400px;
 @media (max-width: 768px) {
    
     .searchContainer  {
-        top:200px;
+        top:150px;
     }
 
-    body{
-        background-color:red
-    }
 }
 
